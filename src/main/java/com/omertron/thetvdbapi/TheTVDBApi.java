@@ -51,7 +51,7 @@ public class TheTVDBApi {
     private static final Logger LOG = LoggerFactory.getLogger(TheTVDBApi.class);
     private String apiKey = null;
     private HttpClient httpClient;
-    private static final String BASE_URL = "http://thetvdb.com/api/";
+    private static final String BASE_URL = "https://thetvdb.com/api/";
     private static final String XML_EXTENSION = ".xml";
     private static final String SERIES_URL = "/series/";
     private static final String ALL_URL = "/all/";
