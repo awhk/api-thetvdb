@@ -52,7 +52,7 @@ import org.w3c.dom.NodeList;
 public class TvdbParser {
 
     private static final Logger LOG = LoggerFactory.getLogger(TvdbParser.class);
-    private static final String URL_BANNER = "https://thetvdb.com/banners/";
+    private static final String URL_BANNER = "https://thetvdb.com/";
     private static final String TYPE_BANNER = "banner";
     private static final String TYPE_FANART = "fanart";
     private static final String TYPE_POSTER = "poster";
